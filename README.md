@@ -16,62 +16,62 @@
   <tr>
         <td> 고은샘 </td>
         <td> 0 </td>
-        <td> 0 </td>
+        <td> 10 </td>
         <td> 100 </td>
         <td> -100000 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김성원 </td>
         <td> 0 </td>
-        <td> 0 </td>
+        <td> 10 </td>
         <td> 100 </td>
         <td> -100000 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김희수 </td>
         <td> 0 </td>
-        <td> 0 </td>
+        <td> 10 </td>
         <td> 100 </td>
         <td> -100000 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 배현진 </td>
         <td> 0 </td>
-        <td> 0 </td>
+        <td> 10 </td>
         <td> 100 </td>
         <td> -100000 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 박지영 </td>
         <td> 0 </td>
-        <td> 0 </td>
+        <td> 10 </td>
         <td> 100 </td>
         <td> -100000 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 손시연 </td>
         <td> 0 </td>
-        <td> 0 </td>
+        <td> 10 </td>
         <td> 100 </td>
         <td> -100000 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 오지은 </td>
         <td> 0 </td>
-        <td> 0 </td>
+        <td> 10 </td>
         <td> 100 </td>
         <td> -100000 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 최연우 </td>
         <td> 0 </td>
-        <td> 0 </td>
+        <td> 10 </td>
         <td> 100 </td>
         <td> -100000 </td>
         <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 4회
+총 Push 횟수 : 5회
 
 # 업로드 방법
 ### 1. 파일명
@@ -84,17 +84,17 @@
 ### 2. 깃허브 업로드
 - 본인의 이름 폴더에 업로드 해주시면 됩니다!
 - `git bash` 명령어는 다음과 같은 순서대로 입력해주세요.
--     `git pull` // 깃허브에 있는 파일을 본인 컴퓨터로 가져옵니다.
+-     `git pull origin main` // 깃허브에 있는 파일을 본인 컴퓨터로 가져옵니다.
 -     `git add .` // 본인 컴퓨터에 있는 파일을 로컬 Git에 업로드 합니다.
 -     `git commit -m "message"` //메세지를 추가하여 커밋합니다.
--     `git push` // 깃허브에 업로드 합니다
+-     `git push origin main` // 깃허브에 업로드 합니다
 - 위의 방법대로 업로드 하지 않을 경우 README.md가 정상 업데이트 되지 않으니 다들 부탁드려요~
 
 
 # 최초 사용
 - 본인의 컴퓨터에서 "Git Bash"를 실행합니다.
-- `git clone "https://github.com/kdongsu5509/Haedal_AlgorithmStudy.git"`을 입력하여 저장소를 복제합니다.
+- `git clone "https://github.com/KNU-HAEDAL/2024-SS-small-group-ALSol.git"`을 입력하여 저장소를 복제합니다.
 - 복제가 완료되면 본인의 이름으로 된 폴더를 찾아 들어갑니다.
 - 본인의 이름으로 된 폴더 안에 자신의 코드를 업로드 합니다.
-- 업로드가 완료되면 `git add .` -> `git commit -m "message"` -> `git push`를 통해 업로드 합니다.
+- 업로드가 완료되면 `git add .` -> `git commit -m "message"` -> `git push origin main`를 통해 업로드 합니다.
 - *업로드가 완료되면 자동으로 해당 주차의 README.md 파일을 업데이트 됩니다.*
