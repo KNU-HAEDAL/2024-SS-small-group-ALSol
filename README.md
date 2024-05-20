@@ -15,18 +15,18 @@
     <th>   언어별 통계   </th>
   <tr>
         <td> 고은샘 </td>
-        <td> 0 </td>
-        <td> 0 </td>
-        <td> 100 </td>
-        <td> -100000 </td>
-        <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 3 </td>
+        <td> 3 </td>
+        <td> 97 </td>
+        <td> -97000 </td>
+        <td> Python : 3&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김성원 </td>
-        <td> 8 </td>
-        <td> 8 </td>
-        <td> 92 </td>
-        <td> -92000 </td>
-        <td> Python : 8&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 9 </td>
+        <td> 9 </td>
+        <td> 91 </td>
+        <td> -91000 </td>
+        <td> Python : 9&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김희수 </td>
         <td> 4 </td>
@@ -36,18 +36,18 @@
         <td> Python : 4&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 배현진 </td>
-        <td> 3 </td>
-        <td> 3 </td>
-        <td> 97 </td>
-        <td> -97000 </td>
-        <td> Python : 3&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 6 </td>
+        <td> 9 </td>
+        <td> 94 </td>
+        <td> -94000 </td>
+        <td> Python : 9&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 박지영 </td>
-        <td> 0 </td>
-        <td> 0 </td>
-        <td> 100 </td>
-        <td> -100000 </td>
-        <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 9 </td>
+        <td> 11 </td>
+        <td> 91 </td>
+        <td> -91000 </td>
+        <td> Python : 4&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 7&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 손시연 </td>
         <td> 1 </td>
@@ -57,21 +57,21 @@
         <td> Python : 1&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 오지은 </td>
-        <td> 0 </td>
-        <td> 0 </td>
-        <td> 100 </td>
-        <td> -100000 </td>
-        <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 4 </td>
+        <td> 4 </td>
+        <td> 96 </td>
+        <td> -96000 </td>
+        <td> Python : 4&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 최연우 </td>
-        <td> 0 </td>
-        <td> 0 </td>
-        <td> 100 </td>
-        <td> -100000 </td>
-        <td> Python : 0&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 5 </td>
+        <td> 5 </td>
+        <td> 95 </td>
+        <td> -95000 </td>
+        <td> Python : 5&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 22회
+총 Push 횟수 : 37회
 
 # 업로드 방법
 ### 1. 파일명
