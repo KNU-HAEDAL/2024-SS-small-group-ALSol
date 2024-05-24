@@ -15,5 +15,3 @@ def solution(s):
     else:
         return True   
 
-s = "((())()"
-print(solution(s))
