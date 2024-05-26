@@ -18,7 +18,7 @@ def solution(N, stages):
 
         failure_rate.sort(key = lambda x: (-x[1], x[0]))
 
-        return[stage[0] for stage in failure__rate]
+        return[stage[0] for stage in failure_rate]
 
         N = 5
         stages = [2, 1, 2, 6, 2, 4, 3, 3]
