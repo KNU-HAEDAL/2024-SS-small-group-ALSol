@@ -1,56 +1,66 @@
+#노드 생성하는 클래스
 class Node:
     def __init__(self, key):
-        self.left = None
-        self.right = None
-        self.val = key
-    
+        if key != None:
+            self.val = key
+            self.left = None
+            self.right = None
+#이진탐색트리
 class BST:
     def __init__(self):
         self.root = None
     def insert(self, key):
-        #루트 노드가 없는 경우 새로운 노드를 루트 노드로 추가
-        if not self.root:
+        #루트 노드가 없는 경우 노드를 만들고 시작
+        if self.root == None:
             self.root = Node(key)
+        #루트 노드가 있는 경우 
         else:
             curr = self.root
             while True:
-                if key < curr.val:
-                    if curr.left:
-                        curr = curr.left
-                    else:
+                if curr.val > key:
+                    if curr.left == None:
                         curr.left = Node(key)
                         break
-                else:
-                    if curr.right:
-                        curr = curr.right
                     else:
+                        curr = curr.left
+                else:
+                    if curr.right == None:
                         curr.right = Node(key)
                         break
-    def search(self, key):
-        curr = self.root     
-        while curr and curr.val != key:
-            if key < curr.val:
-                curr = curr.left
-            else:
-                curr = curr.right
-        return curr
+                    else:
+                        curr = curr.right
 
+    def search(self, key):
+        curr = self.root
+        while True:
+            if curr.val == key:
+                return True
+            elif curr.val > key:
+                #트리에 찾는 값이 없는 경우
+                if curr.left == None:
+                    return False
+                else:
+                    curr = curr.left
+            else:
+                #트리에 찾는 값이 없는 경우
+                if curr.right == None:
+                    return False
+                else:
+                    curr = curr.right
 
 def solution(lst, search_lst):
     answer = []
+    #BST 객체 생성
     bst = BST()
-    for node in lst:
-        bst.insert(node)
-
+    for key in lst:
+        bst.insert(key)
     for key in search_lst:
-        result = bst.search(key)  #Node객체가 반환된다
-        if result != None and result.val == key:
-            answer.append(True)
-        else:
+        if bst.search(key) == False:
             answer.append(False)
+        else:
+            answer.append(True)
     return answer
 
-lst = [5, 3, 8, 4, 2, 1, 7, 10]
-search_lst = [1, 2, 5, 6]
-#solution(lst, search_lst)
+lst = [1, 3, 5, 7, 9]
+search_lst = [2, 4, 6, 8,10] 
 print(solution(lst, search_lst))
