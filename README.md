@@ -22,11 +22,11 @@
         <td> Python : 3&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김성원 </td>
-        <td> 32 </td>
-        <td> 32 </td>
-        <td> 68 </td>
-        <td> -68000 </td>
-        <td> Python : 32&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 33 </td>
+        <td> 33 </td>
+        <td> 67 </td>
+        <td> -67000 </td>
+        <td> Python : 33&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 김희수 </td>
         <td> 11 </td>
@@ -71,7 +71,7 @@
         <td> Python : 8&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 96회
+총 Push 횟수 : 97회
 
 # 업로드 방법
 ### 1. 파일명
