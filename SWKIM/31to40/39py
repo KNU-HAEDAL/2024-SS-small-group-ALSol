@@ -8,7 +8,7 @@ def bfs(graph_dict, start):
     result.append(start)
     queue.append(start)
 
-
+    # 큐를 통해 깊이 우선이 아닌 너비 우선으로 탐색
     while len(queue) > 0:
         cur = queue.popleft()
 
