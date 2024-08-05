@@ -4,12 +4,17 @@ def find(x, parents):
     find(parents[x], parents)
     
 def union(x, y, parents):
-    if x > y:
-        parent = x
-        child = y
+    #각 원소가 속한 집합의 루트노드 찾기
+    root1 = find(x, parents)
+    root2 = find(y, parents)
+    
+    #두개의 루트노드 크기 비교
+    if root1 > root2:
+        parent = root1
+        child = root2
     else:
-        parent = y
-        child = x
+        parent = root2
+        child = root1
     parents[child] = parent
 
 def solution(k, operations):
