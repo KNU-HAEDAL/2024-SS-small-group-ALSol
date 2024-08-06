@@ -43,11 +43,11 @@
         <td> Python : 14&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 박지영 </td>
-        <td> 33 </td>
-        <td> 35 </td>
-        <td> 67 </td>
-        <td> -67000 </td>
-        <td> Python : 28&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 7&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 34 </td>
+        <td> 36 </td>
+        <td> 66 </td>
+        <td> -66000 </td>
+        <td> Python : 29&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 7&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 손시연 </td>
         <td> 12 </td>
@@ -71,7 +71,7 @@
         <td> Python : 12&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 138회
+총 Push 횟수 : 139회
 
 # 업로드 방법
 ### 1. 파일명
