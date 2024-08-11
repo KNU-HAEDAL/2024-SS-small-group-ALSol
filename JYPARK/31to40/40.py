@@ -7,7 +7,8 @@ def solution(graph, start):
     paths = {start: [start]}
 
     while q:
-        current_distance, current_node = q.pop()
+        #current_distance, current_node = q.pop()            #이렇게 하면 heapq의 기능이 아니라 일반적인 리스트의 메서드가 작동된다(즉, minheap을 사용할 수 없음)
+        current_distance, current_node = heapq.heappop(q)    #각 요소의 첫 번째 값이 작은 순서대로 pop된다.
 
         if current_distance > distances[current_node]:
             continue
@@ -20,7 +21,7 @@ def solution(graph, start):
 
     return [distances, paths]
 
-#graph = { 'A': {'B': 9, 'C': 3}, 'B': {'A': 5}, 'C': {'B': 1} }
-graph = {'A': {'B': 1},'B': {'C': 5},'C': {'D': 1},'D': { } }
+graph = { 'A': {'B': 9, 'C': 3}, 'B': {'A': 5}, 'C': {'B': 1} }
+#graph = {'A': {'B': 1},'B': {'C': 5},'C': {'D': 1},'D': { } }
 start = 'A'
 print(solution(graph, start))
