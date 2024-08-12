@@ -17,6 +17,5 @@ def solution(string_list, query_list):
             result.append(True)
         else:
             result.append(False)
-
     return result
 
