@@ -3,24 +3,19 @@ from collections import defaultdict
 
 def solution(N, road, K):
     answer = 0
-    visited = [False for _ in range(N)]
-    visited[0] = True
     dist = {i+1: float("inf") for i in range(N)}
     dist[1] = 0
     q = []
     graph = [[]for _ in range(N+1)]    
 
-    for current_node, adjacent_node, weight in road:
-        graph[current_node].append((adjacent_node, weight))
-        graph[adjacent_node].append((current_node, weight))
+    for i, j, weight in road:
+        graph[i].append((j, weight))
+        graph[j].append((i, weight))
 
     heapq.heappush(q, [1, 0])          #현재노드, 시작점에서 현재노드까지의 거리
 
     while q:
         current_node, weight = heapq.heappop(q)
-        
-        if dist[current_node] < weight:
-            continue
         
         for adjacent_node, new_weigth in graph[current_node]:                 #현재노드에 연결 돼있는 모든 노드를 볼 것임
             if dist[adjacent_node] > dist[current_node] + new_weigth:
