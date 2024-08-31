@@ -64,14 +64,14 @@
         <td> Python : 100&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr>  <tr>
         <td> 최연우 </td>
-        <td> 20 </td>
-        <td> 20 </td>
-        <td> 80 </td>
-        <td> -80000 </td>
-        <td> Python : 20&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
+        <td> 26 </td>
+        <td> 26 </td>
+        <td> 74 </td>
+        <td> -74000 </td>
+        <td> Python : 26&nbsp&nbsp&nbsp&nbspJava : 0&nbsp&nbsp&nbsp&nbspC : 0&nbsp&nbsp&nbsp&nbsp&nbspC++ : 0&nbsp&nbsp&nbsp&nbsp&nbspC# : 0</td>
     </tr></table>
 <br>
-총 Push 횟수 : 270회
+총 Push 횟수 : 271회
 
 # 업로드 방법
 ### 1. 파일명
