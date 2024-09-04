@@ -18,4 +18,4 @@ def solution(s):
     return answer
 
 s = "{{1,2,3},{2,1},{1,2,4,3},{2}}"
-print(solution(s))  
+print(solution(s)) 
